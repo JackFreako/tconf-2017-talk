@@ -1,0 +1,5 @@
+"name": "protractor-example",
+  "version": "0.0.1",
+  "dependencies": {
+    "protractor": "2.5.1"
+  }
