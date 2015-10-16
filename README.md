@@ -5,6 +5,8 @@ QA Meetup Prep
 
 Trying out Protractor , Travis CI & Sauce Labs
 
+Managing node dependencies via package.json (npm install)
+
 Basic test-cases
 Multiple browsers
 Parallel execution
@@ -14,4 +16,4 @@ CI
 
 Preparing for Travis CI :
 
-Add .travis.yml file to your repository 
+Add .travis.yml file to your repository
