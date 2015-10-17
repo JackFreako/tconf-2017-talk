@@ -1,6 +1,8 @@
+{
 "name": "ProtractorTests",
   "version": "0.0.1",
   "description":"An example to illustrate how to use Protractor & Travis CI & Sauce Labs",
   "dependencies": {
     "protractor": "2.5.1"
   }
+}
