@@ -18,3 +18,5 @@ Headless mode (PhantomJS) [Not to be done] [As specified in their browser suppor
 
 Page Object
 CI
+
+/*npm install <package-name> --save-dependencies*/

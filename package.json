@@ -7,12 +7,3 @@
     , "protractor": "2.5.1"
   }
 }
-
-/*npm install <package-name> --save-dependencies*/
-
-/*
-
-Recommended against using PhnatomJs with Protractor.
-https://github.com/angular/protractor/blob/master/docs/browser-support.md
-
-*/
