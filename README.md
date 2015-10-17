@@ -13,8 +13,8 @@ Basic test-specs [Done]
 Parallel execution [Done]
 Add .travis.yml file to your repository [Done]
 directConnect bypassing selenium server [Done]
+Multiple browsers (Chrome , Firefox) [Done]
 
-Multiple browsers
+Headless mode (PhantomJS)
 Page Object
-Headless mode
 CI
