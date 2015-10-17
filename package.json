@@ -1,8 +1,18 @@
 {
-"name": "ProtractorTests",
+  "name": "ProtractorTests",
   "version": "0.0.1",
-  "description":"An example to illustrate how to use Protractor & Travis CI & Sauce Labs",
+  "description": "An example to illustrate how to use Protractor & Travis CI & Sauce Labs",
   "dependencies": {
-    "protractor": "2.5.1"
+    "phantomjs": "^1.9.18"
+    /*, "protractor": "2.5.1"*/
   }
 }
+
+/*npm install <package-name> --save-dependencies*/
+
+/*
+
+Recommended against using PhnatomJs with Protractor.
+https://github.com/angular/protractor/blob/master/docs/browser-support.md
+
+*/
