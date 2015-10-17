@@ -9,6 +9,11 @@ exports.config = {
 		shardTestFiles: true,
 		maxInstances: 2
 	}
+	, multiCapabilities: [{
+  'browserName': 'firefox'
+}, {
+  'browserName': 'chrome'
+}]
 	, directConnect: true
 	, jasmineNodeOpts: {
 	 // If true, print colors to the terminal.
