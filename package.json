@@ -4,7 +4,7 @@
   "description": "An example to illustrate how to use Protractor & Travis CI & Sauce Labs",
   "dependencies": {
     "phantomjs": "^1.9.18"
-    /*, "protractor": "2.5.1"*/
+    , "protractor": "2.5.1"
   }
 }
 
