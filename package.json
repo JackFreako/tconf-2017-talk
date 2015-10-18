@@ -5,5 +5,9 @@
   "dependencies": {
     "phantomjs": "^1.9.18"
     , "protractor": "2.5.1"
+    , "chromedriver": "2.19.0"
+  },
+  "scripts": {
+    "test":"protractor conf.js"
   }
 }
