@@ -2,6 +2,7 @@ exports.config = {
 	framework: 'jasmine2'
 	, seleniumAddress: 'http://localhost:4444/wd/hub'
 	, specs: ['e2e/*-spec.js']
+	, exclude: ['e2e/todo-spec.js']
 	, capabilities:{
 		//browserName: 'phantomjs', 'phantomjs.binary.path':'/usr/local/lib/node_modules/phantomjs/bin/phantomjs',
 		browserName: 'chrome',
