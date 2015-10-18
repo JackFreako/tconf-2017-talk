@@ -19,8 +19,8 @@ Headless mode (PhantomJS) [Not to be done] [As specified in their browser suppor
 [https://github.com/angular/protractor/blob/master/docs/browser-support.md] [DONE]
 Running test against multiple browsers [DONE].This means specs specified will run in the browsers specified.
  -- You have specified both capabilities and multiCapabilities. This will result in capabilities being ignored.[DONE]
+ CI [Integration Done] [Tests are failing though..]
 
 Page Object
-CI
 
 /*npm install <package-name> --save-dependencies*/
