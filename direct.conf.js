@@ -4,8 +4,10 @@ exports.config = {
 	, specs: ['e2e/*-spec.js']
 	, exclude: ['e2e/todo-spec.js']
 	, capabilities:{
-		//browserName: 'phantomjs', 'phantomjs.binary.path':'/usr/local/lib/node_modules/phantomjs/bin/phantomjs',
-		browserName: 'chrome',
+		browserName: 'phantomjs',
+		'phantomjs.binary.path': require('phantomjs').path,
+		'phantomjs.cli.args': ['--ignore-ssl-errors=true',  '--web-security=false'],
+		// browserName: 'chrome',
 		//browserName: 'firefox',
 		shardTestFiles: true,
 		maxInstances: 2
@@ -16,7 +18,7 @@ exports.config = {
 //   'browserName': 'chrome'
 // }]
 	,  chromeDriver: 'node_modules/chromedriver/bin/chromedriver'
-	, directConnect: true
+//	, directConnect: true
 	, jasmineNodeOpts: {
 	 // If true, print colors to the terminal.
 	 showColors: true,
