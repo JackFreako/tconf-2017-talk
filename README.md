@@ -1,4 +1,5 @@
-# ProtractorTests
+# ProtractorTests ![Build Status](https://travis-ci.org/jags14385/ProtractorTests.svg?branch=master)
+
 Learning protractor
 
 QA Meetup Prep
