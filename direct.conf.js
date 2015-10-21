@@ -2,8 +2,7 @@ var  config = {
 	framework: 'jasmine2'
 	// , sauceUser: '<username>'
   // , sauceKey: '<access key>'
-	// , seleniumAddress: 'http://localhost:4444/wd/hub'
-	// , seleniumAddress :'http://vjagannath09:1a89683a-5be7-4f41-913e-86ad496d5b29@ondemand.saucelabs.com:80/wd/hub'
+	, seleniumAddress: 'http://localhost:4444/wd/hub'
 	, specs: ['e2e/demo-spec.js']
 	, exclude: ['e2e/todo-spec.js']
 	, capabilities:{

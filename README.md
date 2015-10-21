@@ -34,6 +34,6 @@ Running test against multiple browsers [DONE].This means specs specified will ru
 
  Initiating the test run locally on Sauce labs . Just specify the SAUCE_USERNAME & SAUCE_CONNECT .Its all good . [DONE]
 
- CI [Integration Done] [Tests are failing though..]
+ CI [Integration Done] [Tests are passing now .. YAY !!! ]
 
 /* npm install <package-name> --save-dependencies */
