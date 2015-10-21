@@ -10,8 +10,8 @@ var  config = {
 		// browserName: 'phantomjs',
 		// 'phantomjs.binary.path': require('phantomjs').path,
 		// 'phantomjs.cli.args': ['--ignore-ssl-errors=true',  '--web-security=false'],
-		 browserName: 'chrome',
-		  name: 'QA Meetup Job',
+		browserName: 'chrome',
+		name: 'QA Meetup Job',
 		//browserName: 'firefox',
 		shardTestFiles: true,
 		maxInstances: 2
@@ -36,6 +36,7 @@ if (process.env.TRAVIS) {
   config.sauceKey = process.env.SAUCE_ACCESS_KEY;
   config.capabilities = {
     'browserName': 'chrome',
+		'name': 'Protractor Travis CI Job',
     'tunnel-identifier': process.env.TRAVIS_JOB_NUMBER,
     'build': process.env.TRAVIS_BUILD_NUMBER
   };
