@@ -1,4 +1,4 @@
-exports.config = {
+var  config = {
 	framework: 'jasmine2'
 	// , sauceUser: '<username>'
   // , sauceKey: '<access key>'
@@ -40,3 +40,5 @@ if (process.env.TRAVIS) {
     'build': process.env.TRAVIS_BUILD_NUMBER
   };
 }
+
+module.exports.config = exports.config = config;
