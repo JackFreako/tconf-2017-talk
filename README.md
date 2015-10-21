@@ -29,8 +29,10 @@ Headless mode (PhantomJS) [Not to be done] [As specified in their browser suppor
 Running test against multiple browsers [DONE].This means specs specified will run in the browsers specified.
  -- You have specified both capabilities and multiCapabilities. This will result in capabilities being ignored.[DONE]
 
+ Page Object [Done]
+
+ Initiating the test run locally on Sauce labs . Just specify the SAUCE_USERNAME & SAUCE_CONNECT .Its all good . [DONE]
+
  CI [Integration Done] [Tests are failing though..]
 
- Page Object
-
-/*npm install <package-name> --save-dependencies*/
+/* npm install <package-name> --save-dependencies */
