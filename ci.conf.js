@@ -16,7 +16,7 @@ if (process.env.TRAVIS) {
   config.sauceKey = process.env.SAUCE_ACCESS_KEY;
   config.capabilities = {
     'browserName': 'chrome',
-		'name': 'Protractor Travis CI Job',
+		'name': 'Protractor-Travis-CI',
     'tunnel-identifier': process.env.TRAVIS_JOB_NUMBER,
     'build': process.env.TRAVIS_BUILD_NUMBER
   };
