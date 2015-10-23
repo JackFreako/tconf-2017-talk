@@ -8,6 +8,6 @@
     , "chromedriver": "2.19.0"
   },
   "scripts": {
-    "test":"protractor direct.conf.js"
+    "test":"protractor ci.conf.js"
   }
 }
