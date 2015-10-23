@@ -1,4 +1,4 @@
-# ProtractorTests ![Build Status](https://travis-ci.org/jags14385/ProtractorTests.svg?branch=master)
+# ProtractorTests [![Build Status](https://travis-ci.org/jags14385/ProtractorTests.svg?branch=master)](https://travis-ci.org/jags14385/ProtractorTests)
 
 Learning protractor
 
