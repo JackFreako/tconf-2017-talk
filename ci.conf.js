@@ -1,7 +1,6 @@
 var  config = {
 	framework: 'jasmine2'
-	, specs: ['e2e/demo-spec.js']
-	, exclude: ['e2e/todo-spec.js']
+	, specs: ['e2e/*-spec.js']
 	, capabilities:{
 		//browserName: 'firefox',
 		browserName: 'chrome',
