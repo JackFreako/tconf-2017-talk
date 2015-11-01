@@ -1,7 +1,5 @@
 # ProtractorTests [![Build Status](https://travis-ci.org/jags14385/ProtractorTests.svg?branch=master)](https://travis-ci.org/jags14385/ProtractorTests)
 
-Learning protractor
-
 QA Meetup Prep
 
 Trying out Protractor , Travis CI & Sauce Labs
@@ -27,7 +25,7 @@ Multiple browsers (Chrome , Firefox) [Done]
 Headless mode (PhantomJS) [Not to be done] [As specified in their browser support]
 [https://github.com/angular/protractor/blob/master/docs/browser-support.md] [DONE]
 
-Running test against multiple browsers [DONE].This means specs specified will run in the browsers specified.
+Running test against multiple browsers [DONE].
  -- You have specified both capabilities and multiCapabilities. This will result in capabilities being ignored.[DONE]
 
  Page Object [Done]
