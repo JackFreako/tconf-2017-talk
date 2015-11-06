@@ -4,7 +4,7 @@ var  config = {
 	, capabilities:{
 		//browserName: 'firefox',
 		browserName: 'chrome',
-		name: 'QA Meetup Job',
+		name: 'QA-Meetup-Job',
 		shardTestFiles: true,
 		maxInstances: 2
 	}
