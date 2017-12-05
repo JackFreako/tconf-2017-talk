@@ -1,8 +1,7 @@
 var  config = {
-	framework: 'jasmine2'
-	// , seleniumAddress: 'http://localhost:4444/wd/hub'
-	, specs: ['e2e/demo-spec.js']
-	, exclude: ['e2e/todo-spec.js']
+	framework:'jasmine2'
+	,seleniumAddress: 'http://localhost:4444/wd/hub'
+	, specs: ['e2e/todo-spec.js']
 	, capabilities:{
 		// browserName: 'phantomjs',
 		// 'phantomjs.binary.path': require('phantomjs').path,
@@ -13,7 +12,7 @@ var  config = {
 		maxInstances: 2
 	}
 	,  chromeDriver: 'node_modules/chromedriver/bin/chromedriver'
-	,  directConnect: true
+	// ,  directConnect: true
 };
 
 module.exports.config = exports.config = config;

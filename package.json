@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "description": "An example to illustrate how to use Protractor & Travis CI & Sauce Labs",
   "dependencies": {
-    "phantomjs": "^1.9.18"
-    , "protractor": "2.5.1"
-    , "chromedriver": "2.19.0"
+    "protractor": "5.1.2",
+    "chromedriver": "2.33.1"
   },
   "scripts": {
-    "test":"protractor ci.conf.js"
+    "test": "protractor ci.conf.js"
   }
 }

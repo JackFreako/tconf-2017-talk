@@ -31,7 +31,12 @@ Running test against multiple browsers [DONE].
  Page Object [Done]
 
  Initiating the test run locally on Sauce labs . Just specify the SAUCE_USERNAME & SAUCE_CONNECT .Its all good . [DONE]
+ signup & credentials.
+ export SAUCE_USERNAME=<SAUCE_USERNAME>
+ export SAUCE_ACCESS_KEY=<SAUCE_ACCESS_KEY>
 
- CI [Integration Done] [Tests are passing now .. YAY !!! ]
+ Before using the sauce labs .
+
+ CI [Integration Done] [Tests are passing now .. YAY !!!]
 
 /* npm install <package-name> --save-dependencies */
