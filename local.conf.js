@@ -1,7 +1,7 @@
 var  config = {
 	framework:'jasmine2'
 	,seleniumAddress: 'http://localhost:4444/wd/hub'
-	, specs: ['e2e/todo-spec.js']
+	, specs: ['e2e/*-spec.js']
 	, capabilities:{
 		// browserName: 'phantomjs',
 		// 'phantomjs.binary.path': require('phantomjs').path,
