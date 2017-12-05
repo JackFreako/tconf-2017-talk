@@ -1,7 +1,7 @@
 {
   "name": "ProtractorTests",
   "version": "0.0.1",
-  "description": "An example to illustrate how to use Protractor & Travis CI & Sauce Labs",
+  "description": "An example to illustrate how to use Protractor",
   "dependencies": {
     "protractor": "5.1.2",
     "chromedriver": "2.33.1"

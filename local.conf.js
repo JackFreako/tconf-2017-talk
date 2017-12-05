@@ -11,7 +11,7 @@ var  config = {
 		shardTestFiles: true,
 		maxInstances: 2
 	}
-	,  chromeDriver: 'node_modules/chromedriver/bin/chromedriver'
+	// ,  chromeDriver: 'node_modules/chromedriver/bin/chromedriver'
 	// ,  directConnect: true
 };
 
