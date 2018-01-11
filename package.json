@@ -4,7 +4,7 @@
   "description": "An example on how to use Protractor",
   "dependencies": {
     "geckodriver": "^1.10.0",
-    "protractor": "5.1.2"
+    "protractor": "5.2.2"
   },
   "scripts": {
     "pretest": "npm install && ./node_modules/.bin/webdriver-manager update",
