@@ -3,7 +3,7 @@ var  config = {
 	,seleniumAddress: 'http://localhost:4444/wd/hub'
 	, specs: ['../e2e/*-spec.js']
 	, capabilities:{
-		browserName: 'chrome',
+		browserName: 'firefox',
 		name: 'Demo Job',
 		shardTestFiles: true,
 		maxInstances: 2
